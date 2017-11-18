@@ -787,7 +787,7 @@ input::-ms-input-placeholder {
     border:1px solid #ddd;
     width:70px;
     height:70px;
-    line-height: 75px;
+    line-height: 76px;
     margin:20px auto;
     transition: all 0.6s;
 }
