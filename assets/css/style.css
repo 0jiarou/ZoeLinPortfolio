@@ -786,8 +786,8 @@ input::-ms-input-placeholder {
 .main_feature .single_feature .single_feature_icon{
     border:1px solid #ddd;
     width:70px;
-    height: 70px;
-    line-height: 70px;
+    height:70px;
+    line-height: 75px;
     margin:20px auto;
     transition: all 0.6s;
 }
@@ -881,7 +881,7 @@ button.btn-md {
     color: #444;
     letter-spacing: 1px;
     margin: 0;
-    font-size: 0.8125rem;
+    font-size: 1.3rem;
     border-radius: 0px;
     margin-top: 0px;
     background-color: transparent;
