@@ -142,7 +142,7 @@ input[type="color"],
 h1,
 h2,
 h3 {
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 h4,
@@ -881,6 +881,7 @@ button.btn-md {
     color: #444;
     letter-spacing: 1px;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3rem;
     border-radius: 0px;
     margin-top: 0px;
@@ -941,7 +942,7 @@ button.btn-md:hover {
     top:3%;
   width:90.5%;
     height:96.7%;
-    background: rgba(5,40,35,0.6);
+    background: rgba(255,255,255,0.8);
     color:#fff;
     padding: 20px;
     opacity: 0;
