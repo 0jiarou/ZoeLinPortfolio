@@ -15,15 +15,15 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     
-    <link rel="stylesheet" href="assets/css/jquery.fancybox-thumbs.css" />
+  
 
 </head>
 
 <body>
       
     <div class="text-center">
-         <h2>GODDESS SECRET 女神秘密</h2>
-      
+         <h2>Product</h2>
+         <div class="separator"></div>
     </div>
 
     <ul class="containerimg">
@@ -40,14 +40,14 @@
             ASDASJKDJ KLASJDKL JASKDLJ KLASJDKL JKLSADJ LASD<br>
             ASDJAKSJDLASJKLDAS
          </p>
-         
+         <div class="separator"></div>
     </div>
 
- 
     
 
  <script src="assets/js/vendor/jquery-1.11.2.min.js"></script> 
 
+     
 
   
 
@@ -55,8 +55,14 @@
  <script src="assets/css/slick/slick.min.js"></script>
  <script>
   
-    
-   $('.containerimg').slick();
+     
+     $('.containerimg').slick({
+         dots: true,
+        infinite: true,
+        speed: 500,
+         fade: true,
+       cssEase: 'linear'
+      });
  </script>   
 </body>
 </html>
