@@ -1513,7 +1513,19 @@ li .single_team_text p{
     margin:0px auto;
 }
 .containerimg{
+    width:100%;
+    height:100%;
+    margin: 0px auto;
+
+}
+.singleimg{
     width:90%;
+    height:90%;
+    margin: 0px auto;
+
+}
+.textbar{
+    width:70%;
     height:90%;
     margin: 0px auto;
 
