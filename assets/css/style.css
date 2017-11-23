@@ -717,11 +717,12 @@ input::-ms-input-placeholder {
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
     color: #fff;
     outline: none;
-    background: #e74c3c;
+    
 }
 .slick-arrow{
-    background: #ddd;
-    color:#000;
+    background: white;
+    color:white;
+    
 }
 .main_home_slider i{
     width:40px;
@@ -1520,12 +1521,13 @@ li .single_team_text p{
 }
 .singleimg{
     width:90%;
+     left:50%;
     height:90%;
     margin: 0px auto;
 
 }
 .textbar{
-    width:70%;
+    width:80%;
     height:90%;
     margin: 0px auto;
 
