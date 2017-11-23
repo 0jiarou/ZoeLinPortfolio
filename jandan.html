@@ -68,9 +68,17 @@
         <br><br><br>
         <li><img src="assets/images/pf32.jpg"></li>
          <br><br><br>
-        <li><img src="assets/images/pf33.jpg"></li>
+        <ul class="containerimg">
+    
+        <center><li><img src="assets/images/001.jpg"></li></center>
+        <li><img src="assets/images/002.jpg"></li>
+      
+        
+    
+        </ul>
     
     <br><br><br>
+        
     <div class="textbar">
         <div class="head_title text-center"><br><br>
             <h4>JANDAN CARE 面膜包裝</h4>
@@ -80,6 +88,9 @@
          </p>
         </div> 
     </div> 
+      
+        
+        
                             </div>
 
                             <div style="clear:both;"></div>  
@@ -117,13 +128,15 @@
  <script src="assets/css/slick/slick.js"></script>
  <script src="assets/css/slick/slick.min.js"></script>
  <script>
-  
+
   $('.containerimg').slick({
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
 });
+				
 </script>
         
     </body>
