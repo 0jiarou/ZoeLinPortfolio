@@ -29,11 +29,6 @@
     <ul class="containerimg">
         <li><img src="assets/images/pf1.jpg"></li>
         <li><img src="assets/images/pf31.jpg"></li>
-        <li><img src="assets/images/pf31.jpg"></li>
-           <li><img src="assets/images/pf1.jpg"></li>
-        <li><img src="assets/images/pf31.jpg"></li>
-        <li><img src="assets/images/pf31.jpg"></li>
-        
     </ul>
     
     
@@ -61,13 +56,13 @@
  <script>
   
      
-  $('.containerimg').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-});
-	
+     $('.containerimg').slick({
+         dots: true,
+        infinite: true,
+        speed: 500,
+         fade: true,
+       cssEase: 'linear'
+      });
  </script>   
 </body>
 </html>
