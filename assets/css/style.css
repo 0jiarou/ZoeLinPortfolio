@@ -720,8 +720,8 @@ input::-ms-input-placeholder {
     
 }
 .slick-arrow{
-    background: white;
-    color:white;
+    background: lightgray;
+    color:lightgray;
     
 }
 .main_home_slider i{
@@ -1532,11 +1532,5 @@ li .single_team_text p{
     margin: 0px auto;
 
 }
-
-
-
-
-
-
 
 
